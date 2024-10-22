@@ -21,14 +21,14 @@ export default function Home() {
             <p className="text-base sm:text-lg md:text-xl mb-8">
               I help businesses grow online through impactful web designs, innovative marketing strategies, and creative visuals tailored to their needs.
             </p>
-            <div className="space-x-4">
-              <Link href="#about" className="bg-indigo-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+            <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
+              <Link href="#about" className="w-full sm:w-auto bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105 text-center">
                 Learn More
               </Link>
-              <Link href="mailto:afsheen6441@gmail.com" className="bg-green-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-green-700 transition duration-300 transform hover:scale-105">
+              <Link href="mailto:afsheen6441@gmail.com" className="w-full sm:w-auto bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300 transform hover:scale-105 text-center">
                 Contact Me
               </Link>
-              <Link href="https://github.com/Afsheen-imran" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+              <Link href="https://github.com/Afsheen-imran" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105 text-center">
                 View My Repository
               </Link>
             </div>
@@ -42,7 +42,7 @@ export default function Home() {
             <p className="text-lg sm:text-xl md:text-2xl leading-7 max-w-5xl mx-auto mb-6 sm:mb-8 font-semibold transition-transform duration-300 hover:text-blue-800 hover:scale-105 transform-gpu">
               I am a frontend web developer, social media marketer, Shopify store specialist, content writer, and graphic designer with over 2 years of experience. I specialize in creating responsive websites using HTML, CSS, JavaScript, TypeScript, React, and Next.js. My goal is to help businesses grow through effective social media campaigns and optimized Shopify stores, creating engaging solutions that connect with audiences and elevate brands.
             </p>
-            <Link href="#portfolio" className="bg-indigo-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+            <Link href="#portfolio" className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
               View My Work
             </Link>
           </div>
